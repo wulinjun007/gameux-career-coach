@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>陪跑体系 · 8 周 6 阶段 — 游戏UX求职陪跑营</title>
+<meta name="description" content="P0 诊断定位 → P1 证据工程 → P2 简历工程 → P3 情报投递 → P4 笔试 → P5 面试冲刺 → P6 谈薪入职。每阶段调用指定开源项目，检查点不通过不进下一阶段。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">陪</span>
+      <span>游戏UX求职陪跑营<small>GAMEUX CAREER PACER</small></span>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a class="on" href="program.html">陪跑体系</a>
+      <a href="toolkit.html">能力引擎</a>
+      <a href="method.html">方法论</a>
+      <a class="nav-cta" href="apply.html">30 秒自诊断</a>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">菜单</button>
+  </div>
+  <nav class="nav-menu" id="navMenu" aria-label="移动端导航">
+    <a href="index.html">首页</a>
+    <a class="on" href="program.html">陪跑体系</a>
+    <a href="toolkit.html">能力引擎</a>
+    <a href="method.html">方法论</a>
+    <a href="apply.html">诊断与报名</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="sec" style="border-bottom:1px solid var(--line-soft);padding:64px 0 40px">
+    <div class="wrap">
+      <p class="kicker">PROGRAM · P0 → P6</p>
+      <h2>8 周路线：检查点制，不达标不出站。</h2>
+      <p style="color:var(--muted);margin-top:12px;max-width:46em">每个阶段写清楚了目标、动作、交付物和被调用的开源能力。<strong style="color:var(--text)">检查点允许按周顺延，不允许跳过</strong>——这是全部纪律。</p>
+      <div class="chips" style="margin-top:18px">
+        <span class="chip chip-gold">不承诺 Offer</span>
+        <span class="chip chip-gold">不代写代做</span>
+        <span class="chip chip-gold">证据全程留存</span>
+        <span class="chip chip-gold">工具链毕业后归你</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="timeline">
+        <div class="stage">
+          <div class="stage-key">P0 · 诊断定位<small>W1</small></div>
+          <div>
+            <h3>先知道差距在哪，再谈努力</h3>
+            <p>自诊断 5 题（差距五维）→ 按 12 项模板盘点项目资产 → 抽样目标岗位跑匹配 → 判定画像（在校 / 转行 / 在职）。</p>
+            <div class="deliver"><b>检查点交付物：</b>《差距报告》——作品集预评分（100 分制）+ 补件清单 + 目标公司清单</div>
+            <div class="chips"><span class="chip chip-acc">designer-portfolios</span><span class="chip chip-acc">career-ops</span><span class="chip">offer-toolkit-skill</span></div>
+          </div>
+        </div>
+        <div class="stage">
+          <div class="stage-key">P1 · 证据工程<small>W2–W4</small></div>
+          <div>
+            <h3>3 个旗舰案例，1 个写满决策十环</h3>
+            <p>案例类型选型（42 类地图）→ 决策十环写作 → 原型与图组生产 → 反 slop 门禁（hallmark/taste/ui-skills）→ 无障碍验证（Chroma）→ 局内录像证据（claude-video）与 demo reel（autoclip）。</p>
+            <div class="deliver"><b>检查点交付物：</b>作品集站公网上线；≥1 个案例过 70 分，2 个框架版案例</div>
+            <div class="chips"><span class="chip chip-acc">ore-ui</span><span class="chip chip-acc">unity-ui-toolkit-design-system</span><span class="chip chip-acc">archify</span><span class="chip chip-acc">hallmark</span><span class="chip chip-acc">taste-skill</span><span class="chip chip-acc">ui-skills</span><span class="chip chip-acc">Chroma</span><span class="chip chip-acc">claude-video</span><span class="chip chip-acc">autoclip</span><span class="chip">建站模板 ×6</span><span class="chip">game-icons · lucide</span><span class="chip">screenshot-to-code</span><span class="chip">game-ui-design-workflow</span><span class="chip">onlook</span><span class="chip">novel-to-game</span></div>
+          </div>
+        </div>
+        <div class="stage">
+          <div class="stage-key">P2 · 简历工程<small>W4</small></div>
+          <div>
+            <h3>简历进 git，像代码一样改</h3>
+            <p>YAML/LaTeX 源文件化（rendercv / Awesome-CV）→ 按岗族出 3 变体 → Resume-Matcher 跑匹配分调优 → taste-skill 过反 AI 味措辞。</p>
+            <div class="deliver"><b>检查点交付物：</b>主简历 PDF ×3 岗族变体（仓库可 diff）</div>
+            <div class="chips"><span class="chip chip-acc">rendercv</span><span class="chip chip-acc">Awesome-CV</span><span class="chip chip-acc">reactive-resume</span><span class="chip chip-acc">Resume-Matcher</span><span class="chip">taste-skill</span></div>
+          </div>
+        </div>
+        <div class="stage">
+          <div class="stage-key">P3 · 情报与投递工程<small>W5–W6</small></div>
+          <div>
+            <h3>漏斗化投递，拒绝海投</h3>
+            <p>career-ops 扫岗位板并按简历 1-5 打分 → 只投 4 分以上 → ai-job-search 做 JD 深解码与材料定制 → 投递进看板（job-ops / jobsync），每周复盘漏斗转化。</p>
+            <div class="deliver"><b>检查点交付物：</b>投递看板跑出漏斗数据（投递→约面率）</div>
+            <div class="chips"><span class="chip chip-acc">career-ops</span><span class="chip chip-acc">ai-job-search</span><span class="chip chip-acc">job-ops</span><span class="chip">jobsync</span><span class="chip">offerPilot</span><span class="chip">Summer2027-Internships</span><span class="chip">Resume-Matcher</span></div>
+          </div>
+        </div>
+        <div class="stage">
+          <div class="stage-key">P4 · 笔试与测评<small>W5–W6</small></div>
+          <div>
+            <h3>过「懂实现」这一关</h3>
+            <p>UX 笔试题感（Devinterview-io）→ 前端常识补课（fe-interview 每日 3+1）→ 白板方法论骨架（tech-interview-handbook）→ 现场测试模拟（对标 Blizzard UI/UX 测试）。</p>
+            <div class="deliver"><b>检查点交付物：</b>2 次全真笔试的复盘记录（错题 + 重做）</div>
+            <div class="chips"><span class="chip chip-acc">ux-design-interview-questions</span><span class="chip chip-acc">fe-interview</span><span class="chip chip-acc">tech-interview-handbook</span><span class="chip">Claude-Code-Game-Studios</span></div>
+          </div>
+        </div>
+        <div class="stage">
+          <div class="stage-key">P5 · 面试冲刺<small>W7</small></div>
+          <div>
+            <h3>把面试变成排练过的题</h3>
+            <p>STAR 答案库（awesome-behavioral-interviews）→ 2 轮录像 mock：行为面 + 专业面（状态机/无障碍/引擎/机制理解专项）→ 每家面试公司出情报简报（Agent-Reach + last30days）。</p>
+            <div class="deliver"><b>检查点交付物：</b>每公司一份答题手册 + mock 录像复盘</div>
+            <div class="chips"><span class="chip chip-acc">awesome-behavioral-interviews</span><span class="chip chip-acc">Agent-Reach</span><span class="chip chip-acc">last30days-skill</span><span class="chip">offer-toolkit-skill</span><span class="chip">accessibility_interview_questions</span><span class="chip">Chroma</span></div>
+          </div>
+        </div>
+        <div class="stage">
+          <div class="stage-key">P6 · 谈薪与入职<small>W8</small></div>
+          <div>
+            <h3>把比较变成决策</h3>
+            <p>Offer 对比矩阵（offerPilot）→ 谈薪话术 → 用 last30days 查团队近况 → 入职 30 天适应计划。</p>
+            <div class="deliver"><b>检查点交付物：</b>Offer 决策记录（含取舍理由，以后就是你跳槽的基准）</div>
+            <div class="chips"><span class="chip chip-acc">offerPilot</span><span class="chip">last30days-skill</span></div>
+          </div>
+        </div>
+      </div>
+      <p class="foot-note">持续层（全程）：游戏设计知识补给（magictools / awesome-game-design / awesome-learn-gamedev / 2DGD_F0TH / Ultralight）、设计资源（awesome-design / design-resources-for-developers / awesome-design-md / awesome-creative-coding）。完整映射见<a href="toolkit.html">能力引擎</a>。</p>
+    </div>
+  </section>
+
+  <!-- 三档服务 -->
+  <section class="sec" style="background:var(--bg-soft)">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker">TIERS</p>
+        <h2>三档服务：从免费自学到限量 1v1。</h2>
+        <p>自学版不是阉割版——方法论、工具链、自查表全部公开（本官网就是教材）。付费买的是评审与纪律。</p>
+      </div>
+      <div class="tbl-wrap">
+        <table class="tbl">
+          <thead><tr><th style="width:22%">权益</th><th>自学版</th><th class="hl-col">陪跑版（8 周）</th><th>1v1 版</th></tr></thead>
+          <tbody>
+            <tr><td><b>方法论 + 100 分制自查表</b></td><td>✓ 全部公开</td><td class="hl-col">✓</td><td>✓</td></tr>
+            <tr><td><b>50 项目工具链教程</b></td><td>✓ 全部公开</td><td class="hl-col">✓ + 每周实操点评</td><td>✓ + 手把手陪搭</td></tr>
+            <tr><td><b>每周检查点评审</b></td><td>—</td><td class="hl-col">✓ 集体评审 1 次/周</td><td>✓ 1v1 评审</td></tr>
+            <tr><td><b>mock 面试（录像）</b></td><td>—</td><td class="hl-col">✓ 2 轮</td><td>✓ 不限轮次（至多 6 轮）</td></tr>
+            <tr><td><b>公司情报简报</b></td><td>方法公开，自己做</td><td class="hl-col">✓ 每面试公司一份</td><td>✓ 深度定制</td></tr>
+            <tr><td><b>岗位漏斗看板</b></td><td>开源工具自建</td><td class="hl-col">✓ 代部署 + 周复盘</td><td>✓ 代运营</td></tr>
+            <tr><td><b>开营方式</b></td><td>随时</td><td class="hl-col">按期开营</td><td>限量</td></tr>
+            <tr><td><b>定价</b></td><td>免费</td><td class="hl-col">以当期公告为准</td><td>以当期公告为准</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="foot-note">退款纪律：按未完成检查点比例退款，规则写入协议（PRD §10）。凡是敢把检查点写清楚的，才谈得上负责。</p>
+    </div>
+  </section>
+
+  <!-- 门禁 -->
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker">QUALITY GATES</p>
+        <h2>四道门禁，卡住每一个「差不多」。</h2>
+      </div>
+      <div class="grid g4">
+        <div class="card"><span class="num-tag">GATE 1</span><h3>P0 不出报告不进 P1</h3><p>差距报告没跑出来，后面全是盲走——预评分是 8 周的基准线。</p></div>
+        <div class="card"><span class="num-tag">GATE 2</span><h3>案例不过 70 分不上站</h3><p>100 分制评审，思考分（决策+取舍+复杂）35 分里不及 24 分，整案重写。</p></div>
+        <div class="card"><span class="num-tag">GATE 3</span><h3>漏斗无数据不复盘</h3><p>投递看板没数据，周复盘就只是聊天气。数据先行。</p></div>
+        <div class="card"><span class="num-tag">GATE 4</span><h3>mock 不录像不算完成</h3><p>口头「感觉还行」不作数，录像复盘到每题可改。</p></div>
+      </div>
+      <p style="margin-top:28px"><a class="btn btn-primary" href="apply.html">从 P0 的 30 秒自诊断开始 →</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="index.html" style="margin-bottom:14px">
+          <span class="brand-mark">陪</span>
+          <span>游戏UX求职陪跑营<small>GAMEUX CAREER PACER</small></span>
+        </a>
+        <p>不承诺 Offer，只交付证据。<br>方法与数据全部可溯源。</p>
+      </div>
+      <div>
+        <h4>产品</h4>
+        <a href="program.html">陪跑体系</a>
+        <a href="toolkit.html">能力引擎（50 项目）</a>
+        <a href="method.html">方法论与标准</a>
+        <a href="apply.html">诊断与报名</a>
+      </div>
+      <div>
+        <h4>文档</h4>
+        <a href="https://github.com/wulinjun007/gameux-career-coach/blob/main/docs/Top50-GitHub项目清单-2026-10-07.md">Top50 项目清单 ↗</a>
+        <a href="https://github.com/wulinjun007/gameux-career-coach/blob/main/docs/PRD-游戏UX求职陪跑营-V1.0.md">产品 PRD V1.0 ↗</a>
+        <a href="https://github.com/wulinjun007/gameux-career-coach">GitHub 仓库 ↗</a>
+      </div>
+      <div>
+        <h4>方法论来源</h4>
+        <p>游戏交互作品集深度调研<br>（59 JD · 22 标杆 · 2026-09）</p>
+        <p style="margin-top:8px">TOP20 作品集基准报告<br>（100 分制 · 决策十环 · 2026-09）</p>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>© <span id="yr">2026</span> 游戏 UX 求职陪跑营</span>
+      <span class="mono">Star 快照 2026-10-07 · GitHub API 实测</span>
+      <span>静态站 · 无外部依赖 · GitHub Pages</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

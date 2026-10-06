@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>30 秒自诊断 · 报名 — 游戏UX求职陪跑营</title>
+<meta name="description" content="5 道题按差距五维（可核验开场/约束显性/负结果/过程计量/AI 提效）打分，立刻拿到分区建议与 8 周路线入口。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">陪</span>
+      <span>游戏UX求职陪跑营<small>GAMEUX CAREER PACER</small></span>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a href="program.html">陪跑体系</a>
+      <a href="toolkit.html">能力引擎</a>
+      <a href="method.html">方法论</a>
+      <a class="nav-cta" href="apply.html">30 秒自诊断</a>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">菜单</button>
+  </div>
+  <nav class="nav-menu" id="navMenu" aria-label="移动端导航">
+    <a href="index.html">首页</a>
+    <a href="program.html">陪跑体系</a>
+    <a href="toolkit.html">能力引擎</a>
+    <a href="method.html">方法论</a>
+    <a class="on" href="apply.html">诊断与报名</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="sec" style="border-bottom:1px solid var(--line-soft);padding:64px 0 36px">
+    <div class="wrap">
+      <p class="kicker">STEP 01 · SELF DIAGNOSIS</p>
+      <h2>30 秒自诊断：你输在哪，先承认它。</h2>
+      <p style="color:var(--muted);margin-top:12px;max-width:46em">按 59 条 JD 与 22 份标杆提炼的<strong style="color:var(--text)">差距五维</strong>作答，每题 0–2 分。诚实作答——这里骗自己，面试官会替你揭穿。</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap" style="max-width:860px">
+      <form class="diag" id="diagForm" novalidate>
+        <div class="q">
+          <h3>1. 可核验开场</h3>
+          <p>你的案例写明游戏名 / 平台 / 时间线 / 署名角色 / shipped 状态了吗？</p>
+          <div class="opts" role="radiogroup" aria-label="可核验开场评分">
+            <span class="opt"><input type="radio" name="q1" id="q1a" value="0"><label for="q1a">基本没有</label></span>
+            <span class="opt"><input type="radio" name="q1" id="q1b" value="1"><label for="q1b">写了一部分</label></span>
+            <span class="opt"><input type="radio" name="q1" id="q1c" value="2"><label for="q1c">五项齐全</label></span>
+          </div>
+        </div>
+        <div class="q">
+          <h3>2. 约束显性</h3>
+          <p>案例里能看出技术 / 工期 / 平台约束，以及它们和需求的矛盾吗？</p>
+          <div class="opts" role="radiogroup" aria-label="约束显性评分">
+            <span class="opt"><input type="radio" name="q2" id="q2a" value="0"><label for="q2a">只讲了成果</label></span>
+            <span class="opt"><input type="radio" name="q2" id="q2b" value="1"><label for="q2b">提过约束</label></span>
+            <span class="opt"><input type="radio" name="q2" id="q2c" value="2"><label for="q2c">约束与矛盾写透了</label></span>
+          </div>
+        </div>
+        <div class="q">
+          <h3>3. 敢放负结果</h3>
+          <p>被砍掉的方案、失败的迭代，你敢放进作品集吗？</p>
+          <div class="opts" role="radiogroup" aria-label="负结果评分">
+            <span class="opt"><input type="radio" name="q3" id="q3a" value="0"><label for="q3a">不敢</label></span>
+            <span class="opt"><input type="radio" name="q3" id="q3b" value="1"><label for="q3b">提了一句</label></span>
+            <span class="opt"><input type="radio" name="q3" id="q3c" value="2"><label for="q3c">完整呈现并复盘</label></span>
+          </div>
+        </div>
+        <div class="q">
+          <h3>4. 过程计量</h3>
+          <p>案例里有可验证的数字吗（转化率 / 耗时 / 版本数 / A/B）？</p>
+          <div class="opts" role="radiogroup" aria-label="过程计量评分">
+            <span class="opt"><input type="radio" name="q4" id="q4a" value="0"><label for="q4a">没有数字</label></span>
+            <span class="opt"><input type="radio" name="q4" id="q4b" value="1"><label for="q4b">有零星数字</label></span>
+            <span class="opt"><input type="radio" name="q4" id="q4c" value="2"><label for="q4c">关键结论都有数字</label></span>
+          </div>
+        </div>
+        <div class="q">
+          <h3>5. AI 提效</h3>
+          <p>你能展示一套 agent/AI 工具链工作流吗（2026 亚太 JD 已点名要求）？</p>
+          <div class="opts" role="radiogroup" aria-label="AI 提效评分">
+            <span class="opt"><input type="radio" name="q5" id="q5a" value="0"><label for="q5a">没系统用过</label></span>
+            <span class="opt"><input type="radio" name="q5" id="q5b" value="1"><label for="q5b">用过零散工具</label></span>
+            <span class="opt"><input type="radio" name="q5" id="q5c" value="2"><label for="q5c">有完整工作流可展示</label></span>
+          </div>
+        </div>
+        <p class="diag-hint" hidden style="color:var(--danger);font-size:14px">还有题目没答完——5 题都要选才能出结果。</p>
+        <div><button class="btn btn-primary" type="submit">出我的差距报告</button></div>
+      </form>
+      <div class="diag-result" id="diagOut" hidden style="margin-top:24px" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- 报名 -->
+  <section class="sec" style="background:var(--bg-soft)">
+    <div class="wrap" style="max-width:860px">
+      <div class="sec-head">
+        <p class="kicker">STEP 02 · APPLY</p>
+        <h2>报名下一期陪跑</h2>
+        <p>提交后我们会回复 3 个问题来判定画像与开营批次。先完成上面的自诊断，把分区结果一并截图发来，效率更高。</p>
+      </div>
+      <form class="form" id="applyForm" novalidate>
+        <div class="grid g2" style="gap:16px">
+          <div class="field"><label for="fName">称呼</label><input id="fName" name="name" type="text" placeholder="怎么称呼你" autocomplete="name"></div>
+          <div class="field"><label for="fContact">微信 / 邮箱（选一个）</label><input id="fContact" name="contact" type="text" placeholder="用于回复"></div>
+        </div>
+        <div class="grid g2" style="gap:16px">
+          <div class="field">
+            <label for="fStage">当前状态</label>
+            <select id="fStage" name="stage">
+              <option value="">请选择</option>
+              <option>在校 / 应届</option>
+              <option>泛 UX 转行游戏</option>
+              <option>在职跳槽</option>
+              <option>出海 / 远程方向</option>
+            </select>
+          </div>
+          <div class="field"><label for="fLink">作品集 / GitHub 链接（没有就填「无」）</label><input id="fLink" name="link" type="url" placeholder="https://"></div>
+        </div>
+        <div class="field"><label for="fMsg">最想解决的一个问题</label><textarea id="fMsg" name="msg" placeholder="例：项目签了 NDA 不知道怎么写进作品集"></textarea></div>
+        <div class="form-actions"><button class="btn btn-primary" type="submit">提交报名意向</button></div>
+        <p class="form-note">演示环境说明：本表单未接入后端，不会真正发送数据。正式报名渠道以 GitHub 仓库 Issues 与当期公告为准——我们连表单都不伪造成功。</p>
+        <div class="form-done" id="formDone" hidden>
+          <b>已收到（演示态）。</b>这只是一个静态演示环境，表单没有真的提交。正式报名请到
+          <a href="https://github.com/wulinjun007/gameux-career-coach/issues">GitHub 仓库 Issues ↗</a> 开帖，附上自诊断结果。
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="index.html" style="margin-bottom:14px">
+          <span class="brand-mark">陪</span>
+          <span>游戏UX求职陪跑营<small>GAMEUX CAREER PACER</small></span>
+        </a>
+        <p>不承诺 Offer，只交付证据。<br>方法与数据全部可溯源。</p>
+      </div>
+      <div>
+        <h4>产品</h4>
+        <a href="program.html">陪跑体系</a>
+        <a href="toolkit.html">能力引擎（50 项目）</a>
+        <a href="method.html">方法论与标准</a>
+        <a href="apply.html">诊断与报名</a>
+      </div>
+      <div>
+        <h4>文档</h4>
+        <a href="https://github.com/wulinjun007/gameux-career-coach/blob/main/docs/Top50-GitHub项目清单-2026-10-07.md">Top50 项目清单 ↗</a>
+        <a href="https://github.com/wulinjun007/gameux-career-coach/blob/main/docs/PRD-游戏UX求职陪跑营-V1.0.md">产品 PRD V1.0 ↗</a>
+        <a href="https://github.com/wulinjun007/gameux-career-coach">GitHub 仓库 ↗</a>
+      </div>
+      <div>
+        <h4>方法论来源</h4>
+        <p>游戏交互作品集深度调研<br>（59 JD · 22 标杆 · 2026-09）</p>
+        <p style="margin-top:8px">TOP20 作品集基准报告<br>（100 分制 · 决策十环 · 2026-09）</p>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>© <span id="yr">2026</span> 游戏 UX 求职陪跑营</span>
+      <span class="mono">Star 快照 2026-10-07 · GitHub API 实测</span>
+      <span>静态站 · 无外部依赖 · GitHub Pages</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
